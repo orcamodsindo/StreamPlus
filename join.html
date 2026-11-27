@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gabung Nobar - StreamPlus</title>
+<style>
+ body{margin:0;background:#000;color:#fff;font-family:system-ui,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}
+ .c{max-width:340px;padding:24px}
+ h1{font-size:22px;margin:0 0 8px} p{color:#b3b3b3;font-size:14px;margin:0 0 20px}
+ a.b{display:block;padding:14px;border-radius:14px;font-weight:700;text-decoration:none;margin-bottom:10px}
+ .p{background:#e53935;color:#fff} .s{border:1px solid #444;color:#fff}
+</style></head><body><div class="c">
+<h1>Ajakan Nobar &#127916;</h1>
+<p id="msg">Membuka StreamPlus...</p>
+<a id="open" class="b p" href="#">Buka di StreamPlus</a>
+<a class="b s" href="https://stream.plusorca.web.id/#download">Belum punya? Unduh StreamPlus</a>
+</div>
+<script>
+ // Sandi 7 digit ada di bagian # (tidak dikirim ke server).
+ var pass=(location.hash||"").replace("#","");
+ var ok=/^[0-9]{7}$/.test(pass);
+ var scheme="streamplus://nobar?p="+pass;
+ var isAndroid=/android/i.test(navigator.userAgent);
+ var href=isAndroid
+   ? "intent://nobar?p="+pass+"#Intent;scheme=streamplus;package=stream.app.plus;end"
+   : scheme;
+ var btn=document.getElementById("open");
+ if(!ok){document.getElementById("msg").textContent="Link undangan tidak valid.";btn.style.display="none";}
+ else{btn.href=href;setTimeout(function(){location.href=href;},400);
+      document.getElementById("msg").textContent="Ketuk tombol bila aplikasi tidak terbuka otomatis.";}
+</script></body></html>
