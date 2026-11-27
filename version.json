@@ -1,6 +1,6 @@
 {
   "versionCode": 37,
-  "versionName": "3.7.0",
-  "notes": "- Perbaikan Room Nobar dan Penambahan menu Room Privasi Nobar\n- Perbaikan Bug dan Improvisasi",
-  "apkUrl": "https://raw.githubusercontent.com/orcamodsindo/StreamPlus/main/StreamPlus_3.7.0.apk"
+  "versionName": "3.7.2",
+  "notes": "- Perbaikan Bug pada Player\n- Improvisasi UI dan UX pada aplikasi",
+  "apkUrl": "https://raw.githubusercontent.com/orcamodsindo/StreamPlus/main/StreamPlus_3.7.2.apk"
 }
