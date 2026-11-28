@@ -1,6 +1,6 @@
 {
-  "versionCode": 37,
-  "versionName": "3.7.5",
-  "notes": "- Perbaikan Bug pada Nobar Publik\n- Improvisasi dan perbaikan pada fitur Nobar",
-  "apkUrl": "https://raw.githubusercontent.com/orcamodsindo/StreamPlus/main/StreamPlus_3.7.2.apk"
+  "versionCode": 38,
+  "versionName": "3.8.1",
+  "notes": "- Perbaikan UI/UX lebih terarah dan rapi\n- Penambahan Provider Konten 18+ pada Label Anime",
+  "apkUrl": "https://raw.githubusercontent.com/orcamodsindo/StreamPlus/main/StreamPlus.apk"
 }
