@@ -1,6 +1,6 @@
 {
   "versionCode": 38,
-  "versionName": "3.8.1",
-  "notes": "- Perbaikan UI/UX lebih terarah dan rapi\n- Penambahan Provider Konten 18+ pada Label Anime",
+  "versionName": "3.8.2",
+  "notes": "- Perubahan Fitur Nobar\n- Fitur Nobar di Komunitas bisa di pakai semua member",
   "apkUrl": "https://raw.githubusercontent.com/orcamodsindo/StreamPlus/main/StreamPlus.apk"
 }
